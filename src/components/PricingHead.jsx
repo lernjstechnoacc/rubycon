@@ -9,15 +9,15 @@ const PricingHead = () => {
       initial='hidden'
       whileInView='visable'
       viewport={{amount: 0.2, once:true}}
-      className=" py-14 bg-gradient-to-b from-ruby/10   to-white ">
+      className=" py-7 bg-gradient-to-b from-ruby/10   to-white ">
       <div className=" max-w-[1280px] mx-auto flex flex-col items-center">
         <div className="max-w-[700px] flex flex-col items-center">
-          <motion.h1 custom={1} variants={animate.Opacity} className=" text-4xl font-bold mb-6 md:text-6xl">Choose your plan</motion.h1>
-          <motion.p custom={2} variants={animate.Opacity} className=" text-center text-p px-2">
+          <h1  className=" text-4xl font-bold mb-6 md:text-6xl">Choose your plan</h1>
+          <p custom={2} variants={animate.Opacity} className=" text-center text-p px-2">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit et dui
             tellus morbi integer neque, malesuada ac nulla tellus pharetra sit
             laoreet quis.
-          </motion.p>
+          </p>
         </div>
 
         <motion.div custom={3} variants={animate.Bottom} className="header-cards">
